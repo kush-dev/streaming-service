@@ -1,0 +1,222 @@
+/* Set default styles for the page */
+
+
+/* Small screens */
+
+@media (max-width: 776px) {
+    /* Your CSS styles for small screens here */
+}
+
+
+/* Medium screens */
+
+@media (min-width: 576px) and (max-width: 868px) {
+    /* Your CSS styles for medium screens here */
+}
+
+
+/* Large screens */
+
+@media (min-width: 968px) {
+    /* Your CSS styles for large screens here */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style the header */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+/* Style the navigation menu */
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+header li button {
+    background-color: red;
+    border-radius: 35px;
+}
+
+
+/* Style the banner section */
+
+.banner {
+    background-image: url();
+    background-size: cover;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin: 0;
+    color: purple;
+}
+
+.banner p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.banner .cta {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    display: inline-block;
+    font-size: 1.2em;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.banner .cta:hover {
+    background-color: #ccc;
+    color: #fff;
+}
+
+
+/* Style the main content section */
+
+.content {
+    padding: 50px;
+}
+
+.content h2 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+ul {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+
+/* Style the footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#footer p {
+    color: white;
+}
+
+
+/* Social icons */
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: red;
+    padding-right: 106px;
+    padding-bottom: 12px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    color: red;
+}
+
+.social-icons i {
+    padding-right: 6px;
+}
+
+
+/* Support icon */
+
+.support-icon {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    color: red;
+}
+
+.support-icon img {
+    width: 50px;
+    height: 50px;
+    color: red;
+}
+
+.support-icon a {
+    width: 50px;
+    height: 50px;
+    color: red;
+}
+
+#scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 78px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    border-radius: 30%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+#scroll-to-top::before {
+    content: "\2191";
+}
